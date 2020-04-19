@@ -102,3 +102,59 @@ body {
   text-align: center;
   padding-top: 10px;
 }
+
+#rpg {
+  height: 200px;
+  width: 300px;
+}
+
+#trivia {
+  height: 200px;
+  width: 300px;
+}
+
+#guitar {
+  height: 200px;
+  width: 300px;
+}
+
+#rutgers {
+  height: 200px;
+  width: 300px;
+}
+
+#rock {
+  height: 200px;
+  width: 300px;
+}
+
+.block {
+  background-color: #4aaaa5;
+  position: absolute;
+  color: white;
+  text-align: center;
+  z-index: 3;
+  margin: 0 auto;
+  left: 10px;
+  right: 0;
+  top: 75%;
+  width: 300px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.box {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  z-index: 2;
+  margin: 30px 30px 30px 30px;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: #4aaaa5;
+  border: 1px solid #429995;
+  color: white;
+}
